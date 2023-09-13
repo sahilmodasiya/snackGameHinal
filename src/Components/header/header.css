@@ -1,0 +1,26 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 80px;
+    background-color:rgb(67, 15, 136);
+    color:white;
+    font-family:sans-serif;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.header-nav-link{
+    color:inherit;
+    padding: 2rem;
+    font-size:1rem;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+#header-logo{
+    font-size:1.5rem;
+    color: rgb(4, 193, 250);
+    text-transform:uppercase;
+    font-style:italic;
+    font-weight: 800;
+}

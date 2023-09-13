@@ -1,0 +1,10 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#root{
+    background-color:rgba(67, 15, 136, 0.85);
+    height: 100vh;
+    width: 100vw;
+}

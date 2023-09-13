@@ -1,15 +1,12 @@
-import React,{Component} from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import Header from './header/Header';
 
-class Home extends Component{
+class Home extends React.Component{
     render(){
         return(
             <>
-            <h1>Snake Game</h1>
-            <p>This game is made react</p>
-            <Link to="/game">Play game!</Link>
+                <Header/>
             </>
-            
         )
     }
 };
